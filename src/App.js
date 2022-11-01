@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, StrictMode } from 'react';
 import GameModel from './game/GameModel';
 import keyCodes from './input/keys';
 import throttle from 'lodash/throttle';
