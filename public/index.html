@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -17,7 +18,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-
+      
     <script type = "text/javascript" src = "https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
 
     <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
@@ -31,11 +32,10 @@
        $("#hide").click(function(){
           $(".target").hide( "explode", {pieces: 26 }, 2000 );
        });
+       
        $("#show").click(function(){
           $(".target").show( "explode", {pieces: 16}, 2000 );
        });
-
-       
     });
     </script>
 		<div>
@@ -44,7 +44,6 @@
         div{width:1300px; height: 15px; background:rgb(156, 18, 18);}
       </style>
     </div>
-
   </head>
   <body>
       <button id = "hide">start </button>
