@@ -20,6 +20,10 @@
     <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
     
     <script type = "text/javascript" language = "javascript">
+      
+      var RootUrl = '@Url.Content("~/")';
+      url: RootUrl +'Home/GetUsers';
+      
       $(document).ready(function() {
        $("#hide").click(function(){
           $(".target").hide( "explode", {pieces: 26 }, 2000 );
@@ -43,6 +47,7 @@
       <div class = "target">
       </div>
     <noscript></noscript>
+    
     <div id="root"></div>
   </body>
 </html>
